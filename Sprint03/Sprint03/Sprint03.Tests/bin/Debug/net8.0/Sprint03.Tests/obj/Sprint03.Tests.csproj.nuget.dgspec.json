@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.Tests\\Sprint03.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.csproj",
+        "projectName": "Sprint03",
+        "projectPath": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.csproj",
+        "packagesPath": "C:\\Users\\muril\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muril\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.70, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.Tests\\Sprint03.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.Tests\\Sprint03.Tests.csproj",
+        "projectName": "Sprint03.Tests",
+        "projectPath": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.Tests\\Sprint03.Tests.csproj",
+        "packagesPath": "C:\\Users\\muril\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muril\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.csproj": {
+                "projectPath": "C:\\Users\\muril\\Desktop\\FIAP\\Segundo_Ano\\Advanced_Business_Development_With_NET\\Segundo_Semestre\\Check-Point-05-Compliance-Advanced-Business-Development-With-net\\Sprint03\\Sprint03\\Sprint03.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sprint03</name>
+    </assembly>
+    <members>
+        <member name="T:Sprint03.Domain.Entities.NomeUsuario">
+            <summary>
+            Representa um usuário no sistema.
+            </summary>
+        </member>
+        <member name="P:Sprint03.Domain.Entities.NomeUsuario.Id">
+            <summary>
+            Identificador único do usuário.
+            </summary>
+        </member>
+        <member name="P:Sprint03.Domain.Entities.NomeUsuario.Name">
+            <summary>
+            Nome do usuário.
+            </summary>
+        </member>
+        <member name="P:Sprint03.Domain.Entities.NomeUsuario.Email">
+            <summary>
+            Endereço de e-mail do usuário.
+            </summary>
+        </member>
+        <member name="P:Sprint03.Domain.Entities.NomeUsuario.BirthDate">
+            <summary>
+            Data de nascimento do usuário.
+            </summary>
+        </member>
+        <member name="P:Sprint03.Domain.Entities.NomeUsuario.PhoneNumber">
+            <summary>
+            Número do telefone do usuário.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Domain.Entities.NomeUsuario.#ctor">
+            <summary>
+            Construtor vazio necessário para evitar erros de inicialização.
+            </summary>
+        </member>
+        <member name="T:Sprint03.Infrastructure.Data.AppDbContext">
+            <summary>
+            Contexto do banco de dados da aplicação.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Data.AppDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Sprint03.Infrastructure.Data.AppDbContext})">
+            <summary>
+            Inicializa uma nova instância do <see cref="T:Sprint03.Infrastructure.Data.AppDbContext"/>.
+            </summary>
+            <param name="options">Opções de configuração do DbContext.</param>
+        </member>
+        <member name="P:Sprint03.Infrastructure.Data.AppDbContext.NomeUsuarios">
+            <summary>
+            Representa a tabela de usuários no banco de dados.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Data.AppDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Configura os modelos do banco de dados.
+            </summary>
+            <param name="modelBuilder">Construtor de modelos do Entity Framework.</param>
+        </member>
+        <member name="T:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository">
+            <summary>
+            Responsável pelo gerenciamento de usuários no banco de dados.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.#ctor(Sprint03.Infrastructure.Data.AppDbContext)">
+            <summary>
+            Inicializa uma nova instância do <see cref="T:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository"/>.
+            </summary>
+            <param name="context">Contexto do banco de dados.</param>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.GetAllUsersAsync">
+            <summary>
+            Retorna todos os usuários cadastrados.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.GetUserByIdAsync(System.Int32)">
+            <summary>
+            Retorna um usuário pelo ID.
+            </summary>
+            <param name="id">ID do usuário.</param>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.AddUserAsync(Sprint03.Domain.Entities.NomeUsuario)">
+            <summary>
+            Adiciona um novo usuário ao banco de dados.
+            </summary>
+            <param name="user">Usuário a ser adicionado.</param>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.UpdateUserAsync(Sprint03.Domain.Entities.NomeUsuario)">
+            <summary>
+            Atualiza um usuário existente no banco de dados.
+            </summary>
+            <param name="user">Usuário com os novos dados.</param>
+        </member>
+        <member name="M:Sprint03.Infrastructure.Repositories.NomeUsuarioRepository.DeleteUserAsync(System.Int32)">
+            <summary>
+            Remove um usuário pelo ID.
+            </summary>
+            <param name="id">ID do usuário a ser removido.</param>
+        </member>
+        <member name="T:Sprint03.Migrations.novaEstrutura">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.novaEstrutura.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.novaEstrutura.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.novaEstrutura.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sprint03.Migrations.TesteFinal">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.TesteFinal.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.TesteFinal.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sprint03.Migrations.TesteFinal.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sprint03.Presentation.Controllers.NomeUsuarioController">
+            <summary>
+            Controlador para operações de NomeUsuario
+            </summary>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.#ctor(Sprint03.Infrastructure.Repositories.NomeUsuarioRepository)">
+            <summary>
+            Inicializa uma nova instância do controller NomeUsuario.
+            </summary>
+            <param name="repository">Instância do repositório de NomeUsuario</param>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.GetAll">
+            <summary>
+            Retorna todos os usuários
+            </summary>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.GetById(System.Int32)">
+            <summary>
+            Retorna um usuário pelo ID
+            </summary>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.Create(Sprint03.Domain.Entities.NomeUsuario)">
+            <summary>
+            Cria um novo usuário
+            </summary>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.Update(System.Int32,Sprint03.Domain.Entities.NomeUsuario)">
+            <summary>
+            Atualiza os dados de um usuário existente com base no ID informado.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Presentation.Controllers.NomeUsuarioController.Delete(System.Int32)">
+            <summary>
+            Remove um usuário com base no ID informado.
+            </summary>
+        </member>
+        <member name="T:Sprint03.Tests.NomeUsuarioControllerTests">
+            <summary>
+            Testes de integração para o NomeUsuarioController
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.#ctor(Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory{Program})">
+            <summary>
+            Construtor que inicializa o cliente HTTP para os testes de integração.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.GetAll_ShouldReturnSuccess">
+            <summary>
+            Deve retornar todos os usuários com sucesso.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Create_ShouldReturnCreatedUser">
+            <summary>
+            Deve criar um novo usuário e retornar status 201.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.GetById_ShouldReturnUser">
+            <summary>
+            Deve buscar um usuário pelo ID e retornar os dados corretamente.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Update_ShouldModifyUser">
+            <summary>
+            Deve atualizar os dados de um usuário existente.
+            </summary>
+        </member>
+        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Delete_ShouldRemoveUser">
+            <summary>
+            Deve deletar um usuário e garantir que ele não possa mais ser acessado.
+            </summary>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Classe principal da aplicação para testes de integração.
+            </summary>
+        </member>
+    </members>
+</doc>
