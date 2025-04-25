@@ -166,34 +166,9 @@
             Testes de integração para o NomeUsuarioController
             </summary>
         </member>
-        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.#ctor(Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory{Program})">
-            <summary>
-            Construtor que inicializa o cliente HTTP para os testes de integração.
-            </summary>
-        </member>
         <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.GetAll_ShouldReturnSuccess">
             <summary>
-            Deve retornar todos os usuários com sucesso.
-            </summary>
-        </member>
-        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Create_ShouldReturnCreatedUser">
-            <summary>
-            Deve criar um novo usuário e retornar status 201.
-            </summary>
-        </member>
-        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.GetById_ShouldReturnUser">
-            <summary>
-            Deve buscar um usuário pelo ID e retornar os dados corretamente.
-            </summary>
-        </member>
-        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Update_ShouldModifyUser">
-            <summary>
-            Deve atualizar os dados de um usuário existente.
-            </summary>
-        </member>
-        <member name="M:Sprint03.Tests.NomeUsuarioControllerTests.Delete_ShouldRemoveUser">
-            <summary>
-            Deve deletar um usuário e garantir que ele não possa mais ser acessado.
+            Deve retornar todos os usuários com sucesso
             </summary>
         </member>
         <member name="T:Program">

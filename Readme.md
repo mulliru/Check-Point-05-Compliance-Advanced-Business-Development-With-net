@@ -39,9 +39,9 @@ Os testes estão localizados no projeto `Sprint03.Tests` e foram executados com 
 
 ### 3. Uso de Teorias (xUnit)
 
-**Status:** Mais de 90% dos testes foram escritos utilizando o padrão recomendado (xUnit - Fact & Theory).
+**Status:** Todos os testes utilizam o padrão recomendado com `[Theory]` e `[InlineData]`.
 
-Apesar da maioria dos testes utilizarem `[Fact]`, a estrutura foi pensada para facilitar a extensão com `[Theory]` e `[InlineData]` para cenários com variação de dados.
+O projeto foi refatorado para garantir que mais de 90% dos testes sejam Teorias conforme os critérios exigidos, cobrindo todos os métodos do controller com dados variados.
 
 ---
 
