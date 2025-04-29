@@ -33,7 +33,7 @@ Todos os métodos do controller `NomeUsuarioController` estão cobertos:
 
 Os testes estão localizados no projeto `Sprint03.Tests` e foram executados com sucesso:
 
-📎 Anexo: ![Terminal com os Testes sucedidos](./terminal_testes.png)
+📎 Anexo 3: ![Terminal com os Testes sucedidos](./terminal_testes.png)
 
 ---
 
